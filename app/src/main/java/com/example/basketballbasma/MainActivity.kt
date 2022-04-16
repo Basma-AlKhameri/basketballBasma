@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.MaterialTheme
+import androidx.compose.material.MaterialTheme.typography
 import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
@@ -48,12 +49,12 @@ fun Main() {
             Column() {
                 Text(
                     text = "The Perfect Basketball Courts for you",
-                    //style = Typography.h1
+                    style = typography.h1
                 )
                 Text(
                     text = "Explore your dream basketball with" +
                             " advanced basketball courts",
-                    //style = Typography.h3,
+                    style =typography.h3,
                     modifier = Modifier.padding(top = 15.dp)
                 )
             }//end of text box
