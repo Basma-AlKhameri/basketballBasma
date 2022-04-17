@@ -45,7 +45,7 @@ fun Main() {
             painter = painterResource(id = R.drawable.ic_baskball),
             contentDescription = "basketball"
         )
-        Box(Modifier.padding(30.dp)) {
+        Box(Modifier.padding(32.dp)) {
             Column() {
                 Text(
                     text = "The Perfect Basketball Courts for you",
@@ -54,8 +54,8 @@ fun Main() {
                 Text(
                     text = "Explore your dream basketball with" +
                             " advanced basketball courts",
-                    style =typography.h3,
-                    modifier = Modifier.padding(top = 15.dp)
+                    style = typography.h3,
+                    modifier = Modifier.padding(top = 16.dp)
                 )
             }//end of text box
         }

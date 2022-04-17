@@ -19,7 +19,7 @@ val Typography = Typography(
     h1 = TextStyle(
         fontFamily = dosis,
         fontWeight = FontWeight.ExtraBold,
-        fontSize = 30.sp,
+        fontSize = 32.sp,
         color = Color.Black
     ),
     h3 = TextStyle(
